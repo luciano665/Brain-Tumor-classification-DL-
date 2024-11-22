@@ -40,9 +40,8 @@ def generate_explanation(img_path, model_prediction, confidence):
             - Don't mention anything like 'The saliency map highlights teh regions the model is focusing on, which are in light cyan'
             - Keep your explanation to 4 to 5 setences max.
             - Make sure any one on teh ages from 15 to any older can understant the explanation you provide. However don't forget to keep you proffesionalism in you explanation.
-
+            - Give a concise response. New addition
             Let's think step by step about this. Verify step by step."""
-
   img = PIL.Image.open(img_path)
 
   model = genai.GenerativeModel(model_name="gemini-1.5-flash")
