@@ -34,7 +34,7 @@ def generate_explanation(img_path, model_prediction, confidence):
 
             The deep learning model predicted the image to be of class '{model_prediction}' with a confidence of {confidence * 100}%.
 
-            In your response:
+            In your response, amke sure to follow this rules:
             - Explain what regiosn of the brain the model is focusing on, based on the saliency map. Refer to the regions highlighted in the light cyan, those are where the model is focusing on.
             - Explain  possible reasons why the mdoel made the prediction it did.
             - Don't mention anything like 'The saliency map highlights teh regions the model is focusing on, which are in light cyan'
